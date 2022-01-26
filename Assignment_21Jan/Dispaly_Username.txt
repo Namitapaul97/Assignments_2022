@@ -1,0 +1,20 @@
+using System;
+
+
+   public class Dispaly_Username
+     {
+    
+         public static void Main(string[] args)
+ 
+            {
+      
+                 Console.WriteLine("Enter Username");
+   
+                 string str = Console.ReadLine();
+  
+                 Console.WriteLine($"\"Hi! {str} \nWelcome to the world of C#\"");
+
+   
+            }
+     
+}

@@ -1,0 +1,27 @@
+using System;
+
+
+public class Fahrenheit_Celsius
+
+{
+   
+ public static void Main(string[] args)
+ 
+   {
+   
+        Console.WriteLine("--------Convert Fahrenheit to Celsius--------");
+      
+        Console.WriteLine($"Enter the value of temperature in Fahrenheit");
+      
+        double val = Convert.ToDouble(Console.ReadLine());
+     
+        Console.WriteLine("The temperature in Fahrenheit is " + val);
+      
+        double Cel = (val - 32) * 5 / 9;
+      
+        Console.WriteLine($"The temperature in Celsius is {Cel}");
+
+ 
+   }
+
+}
