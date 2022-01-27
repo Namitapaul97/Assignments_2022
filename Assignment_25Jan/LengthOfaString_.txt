@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LengthOfaString
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string str;
+            Console.Write("Enter a String: ");
+            Console.WriteLine("\n");
+            str = Console.ReadLine();
+            Console.WriteLine("Length of the string is: " + str.Length);
+
+            Console.Read();
+        }
+
+    }
+}
